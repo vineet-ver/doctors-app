@@ -26,7 +26,7 @@ export default function RootLayout({
                 <Navbar />
 
                 <main className={cn(
-                    "relative z-10 h-screen ml-24 p-4 transition-all duration-300",
+                    "relative z-10 h-screen md:ml-24 p-4 transition-all duration-300 pb-20 md:pb-4",
                     "flex flex-col"
                 )}>
                     {children}

@@ -68,7 +68,7 @@ export function HeartScene() {
             </Canvas>
 
             {/* Overlay Stats */}
-            <div className="absolute bottom-10 left-32 pointer-events-none">
+            <div className="absolute bottom-4 left-4 md:bottom-10 md:left-32 pointer-events-none z-20">
                 <div className="glass-card p-4 rounded-xl inline-block">
                     <p className="text-slate-400 text-xs uppercase tracking-wider">Heart Rate</p>
                     <div className="flex items-end gap-2">
